@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Fundamentals</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-header">
+      <h1>Augustine Agladima's Web Page</h1>
+    </div>
+    <div class="main-nav">
+      <ul>
+        <li><a href="#webpage">Webpage Content</a></li>
+        <li><a href="#table">Information Table</a></li>
+        <li><a href="#form">Contact Form</a></li>
+      </ul>
+    </div>
+    <div class="home">
+      <img src="images/ocean.jpg" alt="ocean" />
+      <p>
+        This is a sample paragraph describing the content of the webpage. It
+        explains the purpose of the page and provides some basic information
+        about what users can expect to find.
+      </p>
+    </div>
+    <div>
+      <a href="https://www.techyjaunt.com/" target="_blank">Visit TechyJaunt</a>
+    </div>
+    <section id="webpage">
+        <div>
+            <h2>Webpage Content</h2>
+            <div>
+              <ul>
+                <li>Introduction</li>
+                <li>Table of Information</li>
+                <li>Contact Form</li>
+              </ul>
+            </div>
+          </div>
+    </section>
+    <section id="table">
+        <div class="table-container">
+            <h2>Information Table</h2>
+            <table>
+                <tr></tr>
+                    <th>Item</th>
+                    <th>Description </th>
+                    <th>Quality</th>
+                </tr>
+                <tr>
+                    <td>Pens</td>
+                    <td>Blue In Pens</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Notebooks</td>
+                    <td>SpiralBound Notebooks</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Markers</td>
+                    <td>Permanent Markers</td>
+                    <td>2</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="form">
+        <div class="form-container">
+            <h2>Contact Form</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+    
+                <div class="options">
+                    <label>Gender:</label>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                </div>
+    
+                <div class="options">
+                    <label for="subscribe">Subscribe</label>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+                    <label for="subscribe">Yes, I want to subscribe</label>
+                </div>
+    
+                <div class="options">
+                    <label for="items">Number of Items:</label>
+                    <input type="number" id="items" name="items" min="1" max="10">
+                </div>
+    
+                <div class="options">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
+    
+  </body>
+</html>
